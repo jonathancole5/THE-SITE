@@ -1,7 +1,7 @@
 body {
 	background-repeat: no-repeat;
 	background-image: url("images/back.jpg");
-	background-size:100%;
+	background-size: 100% 100%;
 	border: 35px solid rgb(30, 30, 30);
 	border-radius: 10px;
 	display: block;
@@ -10,29 +10,19 @@ body {
 	width: 100vw-2%;
 }
 
-.green:hover {
-	/*opacity: 0.5;*/
-	background-color: rgba(255, 255, 255, 0.5);
-	border: 1px rgba(255, 255, 255, 0.8) solid;
-}
-
-.main {
-	display: block;
-	height: 100%;
-	width: 100%;
-}
-
 .brown {
-	display: flex;
 	background-image: url("images/wallp.jpg");
 	background-size: 100% 100%;
-	height:	95.731%;
+	display: flex;
+	height:	95%;
 	width: 100%;
 }
 
 .x {
-	width:5%;
-	max-height:100%;
+	margin-left: auto;
+	margin-right: 5%;
+	width: 5%;
+	max-height: 100%;
 	font-size: 50%;
 }
 
@@ -54,7 +44,7 @@ button {
 	display: flex;
 	background-image: url("images/b.PNG");
 	background-size: 100% 100%;
-	height: 4.269%;
+	height: 5%;
 	width: 100%;
 }
 
@@ -66,14 +56,11 @@ button {
 
 .yellow {
 	display: flex;
-	content: center;
 	height: 100%;
 	width: 92%;
-	
 }
 
 .purple {
-	/*border: 3px purple solid;*/
 	height: 100%;
 	width: 50%;
 }
@@ -81,14 +68,19 @@ button {
 .green {
 	border: 1px rgba(255, 255, 255, 0.0) solid;
 	display: block;
-	height: 10%;
+	height: auto;
 	width: 100%;
-	margin: auto;
+	margin-top: 7px;
 	padding: auto;
 }
 
+.green:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px rgba(255, 255, 255, 0.8) solid;
+}
+
 .window {
-	visibility: hidden;
+	visibility: visible;
 	margin: auto;
 	display: block;
 	height: 30%;
